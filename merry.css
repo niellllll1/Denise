@@ -1,0 +1,42 @@
+body {
+  background-color: lightpink;
+  height: 100%;
+}
+
+.container {
+  color: white;
+  text-shadow: 0px 0.5px 0.5px black;
+  font-family: cursive;
+  box-shadow: 0px 0px 0px hotpink, 0px 0px 0px hotpink, 0px 0px 5px hotpink, 0px 0px 5px hotpink;
+background-color: lightpink;
+  border-radius: 20px;
+  font-size: 21px;
+  margin-top: 30px;
+  padding: 25px;
+  height: 100%;
+  text-align: center;
+  
+}
+
+#backButton {
+  position: absolute;
+  padding: 8px;
+  top: 43px;
+  left: 20px;
+  background-color: lightpink;
+  text-shadow: 0px 0.5px 0.5px black;
+
+  font-family: cursive;
+  box-shadow: 0px 0px 0px hotpink, 0px 0px 0px hotpink, 0px 0px 2px hotpink, 0px 0px 1px hotpink;
+  border-radius: 10px;
+  border-color: lightpink;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: pink;
+}
+
