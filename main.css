@@ -1,0 +1,66 @@
+body {
+background-color: lightpink; 
+height: 50vh;
+}
+
+.Text {
+color: lightpink;
+border-radius: 20px;
+  font-family: 'Comic Sans Ms', cursive, sans-serif;
+  font-size: 50px;
+  text-shadow: 0px 0px 0px hotpink, 0px 0px 0px hotpink, 0px 0px 20px hotpink, 0px 0px 50px hotpink;
+   padding: 10px;
+  text-align: center;
+  animation: glow 1s ease-in-out 
+  infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px hotpink;
+  }
+  100% {
+    text-shadow: 0 0 20px deeppink;
+  }
+}
+
+.buttoncontainer1{
+text-align: center;
+
+}
+
+#Button {
+color: white;
+  text-shadow: 0px 0.5px 0.5px black;
+  border-color: pink;
+  box-shadow: 0px 0px 0px hotpink, 0px 0px 0px hotpink, 0px 0px 5px hotpink, 0px 0px 5px hotpink;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 15px;
+  
+}
+.buttoncontainer2{
+text-align: center;
+  padding-top: 10px;
+}
+
+.buttoncontainer3{
+ text-align: center;
+  padding-top: 10px;
+}
+
+#happyButton:hover {
+  background-color: pink;
+}
+
+
+#merryButton:hover {
+  background-color: pink;
+}
+
+#newyearButton:hover {
+  background-color: pink;
+}
+
